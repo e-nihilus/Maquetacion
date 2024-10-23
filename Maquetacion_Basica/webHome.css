@@ -6,7 +6,7 @@
 
 .headd{
     background-color: black;
-    height: 100px;
+    height: 70px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -17,7 +17,7 @@
 a{
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
 
 }
 
@@ -32,6 +32,7 @@ a{
 
 .texto{
     margin-right: 60px;
+    margin-left: 100px;
     
 }
 p{
@@ -40,6 +41,10 @@ p{
 
 .titu{
     font-size: 50px;
+}
+
+.imga{
+    margin-right: 100px;
 }
 
 img{
