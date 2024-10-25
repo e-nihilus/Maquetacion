@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", serif;
+}
+
+.imgfoot{
+    width: 30px;
+    height: auto;
+}
+
+body {
+    
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    height: 70px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.izH {
+    width: 50%;
+    display: flex;
+    align-self: flex-start;
+    align-content: center;
+    margin-left: 300px;
+}
+
+.derH {
+    width: 50%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+.linkhe {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+.footer {
+    height: 70px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto; 
+}
+
+a{
+    color: white;
+}
+
+/* --------------------------------------------------------------- */
+
+.body{
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    font-size: 20px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+.blue{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(49, 49, 255);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.white{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.empe{
+    color: black;
+    background-color:yellow;
+    border-radius: 25px; 
+    padding: 15px;
+    border: transparent;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.info{
+    color: yellow;
+    background-color:transparent;
+    border: 2px solid yellow;
+    border-radius: 25px; 
+    padding: 15px;
+    margin-right: 10px;
+}
+
+.peque{
+    font-size: 10px;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+}
+
+#listas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.iz1{
+    width: 33%;
+   
+}
+.der1{
+    width: 33%;
+    
+}
+
+ul{
+    
+    list-style-type: none;
+}
+
+.textnomr{
+    font-size: 16px;
+}
+
+.num{
+    color: blue;
+    background-color:white;
+    border-radius: 300px; 
+    padding: 15px;
+    border: transparent;
+    text-align: center;
+}
+
+#unodostres{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.uno{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.dos{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.tres{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.textcorre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.izq{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    
+}
+
+.corre{
+    width: 400px;
+    height: auto;
+    margin-bottom: -54px;
+}
+
+.vertical {
+    width: 2px; 
+    height: 200px; 
+    background-color: grey; 
+    margin: 0 auto; 
+}
+
+.cancel{
+    width: 50px;
+    height: auto;
+}
+
+#picinpic{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.der2{
+    width: 50%;
+}
+
+.iz2{
+    width: 50%;
+}
+.pic{
+    width: 400px;
+    height: auto;
+}

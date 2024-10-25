@@ -1,0 +1,155 @@
+body {
+    background: linear-gradient(to bottom, #292929, #000000);
+    color: #ffffff;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 30%;
+    height: 70%;
+    padding: 100px;
+    border-radius: 8px;
+    background-color: #181818;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input {
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+input::placeholder {
+    color: #b3b3b3;
+}
+
+button {
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    background-color: #1db954;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#inicio{
+    color: black;
+}
+
+hr {
+    border: none; 
+    height: 1px; 
+    width: 100%; 
+    background-color: grey;
+}
+
+button:hover {
+    border-color: white;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.text span {
+    margin-right: 5px;
+}
+
+.text a:hover {
+    text-decoration: underline;
+}
+
+
+.social{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    flex-direction: column;
+    margin-top: 20px;
+    border-radius: 25px; 
+    background-color: transparent;
+    font-size: 16px;
+    margin-bottom: 10px;
+    
+}
+
+.google {
+    align-content: center;
+    border: 0.5px solid grey;
+    border-radius: 25px;
+    background-color: transparent;
+    width: 400px;
+    margin-bottom: 5px;
+}
+
+.facebook {
+    border: 1px solid grey;
+    border-radius: 25px;
+    background-color: transparent;
+    width: 400px;
+    margin-bottom: 5px;
+}
+
+.apple {
+    border: 0.5px solid grey;
+    border-radius: 25px;
+    background-color: transparent;
+    width: 400px;
+    margin-bottom: 5px;
+}
+
+.contra{
+    color: white;
+    align-self: center;
+}
+
+#cuenta{
+    color:grey
+}
+
+#registro{
+    text-decoration: yes;
+    color:white;
+}
+
+img{
+    width:30px;
+    height: 20px;
+    margin-right: 50px;
+}
+
+#logo{
+    width: 40px;
+    height: auto;
+}
+
+#log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
