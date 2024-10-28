@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --myColor1: #2a546d;
+    --myColor2: #192d3d;
+}
+
+body {
+    background: linear-gradient(to bottom right, var(--myColor1), var(--myColor2), var(--myColor1));
+    color: white;
+}
+
+header {
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 50px;
+}
+
+.enlaces{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.barra1{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+a:hover {
+    background-color: var(--myColor2);
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+}
+
+footer{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    background: var(--myColor2);
+    justify-content: flex-start;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+    padding-left:100px ;
+    padding-bottom: 20px;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 8px;
+    margin-top: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    margin: 10px 10px 5px;
+}
+
+form input, form textarea {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s; 
+    background-color: #78b7df;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #333; 
+}
+
+form button {
+    margin-top: 10px;
+    margin-left: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+.boton{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+form button:hover {
+    background: #555; 
+}
+
+
+main {
+    padding: 20px;
+    height: 90vh;
+
+}
+
+main {
+height: 90vh;
+}
+
+.info{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+}
+
+.ani {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: slideIn 0.5s forwards;
+}
+
+.ani:nth-child(1) { animation-delay: 0.1s; }
+.ani:nth-child(2) { animation-delay: 0.2s; }
+.ani:nth-child(3) { animation-delay: 0.3s; }
+.ani:nth-child(4) { animation-delay: 0.4s; }
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
