@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --myColor1: #2a546d;
+    --myColor2: #192d3d;
+}
+
+body {
+    background: linear-gradient(to bottom right, var(--myColor1), var(--myColor2), var(--myColor1));
+    color: white;
+}
+
+header {
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 50px;
+}
+
+.enlaces{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.barra1{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+a:hover {
+    background-color: var(--myColor2);
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+}
+
+footer{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    background: var(--myColor2);
+    justify-content: flex-start;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+}
+
+form label {
+    margin: 10px 10px 5px;
+}
+
+form input, form textarea {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s; 
+    background-color: #78b7df;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #333; 
+}
+
+form button {
+    margin-top: 10px;
+    margin-left: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+.boton{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+form button:hover {
+    background: #555; 
+}
+
+/* ------------------------------------------------------- */
+main {
+    padding: 20px;
+    height: 110vh;
+}
+
+.pro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project {
+    margin-bottom: 40px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.3s;
+    width: 40%;
+}
+
+.project:hover {
+    transform: scale(1.02);
+}
+
+.repo{
+    font-size: medium;
+    margin: 0;
+    padding: 0;
+}
+.repo:hover{
+    background-color: transparent;
+}
+
+
+img{
+    width: 300px;
+    height: auto;
+}
