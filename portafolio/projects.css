@@ -99,7 +99,7 @@ form button:hover {
 /* ------------------------------------------------------- */
 main {
     padding: 20px;
-    height: 90vh;
+    height: 110vh;
 }
 
 .pro{
@@ -130,4 +130,10 @@ main {
 }
 .repo:hover{
     background-color: transparent;
+}
+
+
+img{
+    width: 300px;
+    height: auto;
 }
