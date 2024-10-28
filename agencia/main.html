@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia Viajes</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<!-- ---------------------------Header------------------------------- -->
+
+<header>
+    <h1>Explora el Mundo con Nosotros</h1>
+    <nav>
+        <ul>
+            <li><a href="#ofertas">Ofertas</a></li>
+            <li><a href="#destinos">Destinos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- ---------------------------------------------------------- -->
+<!-- ---------------------------Body------------------------------- -->
+    <section id="descripcion">
+        <h2>Quiénes Somos</h2>
+        <p>En ViajesTuVida, nos dedicamos a hacer realidad tus sueños de viaje. Ofrecemos paquetes personalizados y experiencias inolvidables en los destinos más impresionantes del mundo.</p>
+    </section>
+
+    <section id="ofertas">
+        <h2>Ofertas Destacadas</h2>
+        <div class="tarjetas">
+            <div class="tarjeta" id="t1">
+                <h3>Mallorca</h3>
+                <p><i>Paquete todo incluido desde $499</i></p>
+                <button>Ver Más</button>
+            </div>
+            <div class="tarjeta" id="t2">
+                <h3>Canarias</h3>
+                <p><i>Escapada romántica desde $699</i></p>
+                <button>Ver Más</button>
+            </div>
+            <div class="tarjeta" id="t3">
+                <h3>Tokyo</h3>
+                <p><i>Aventura cultural desde $899</i></p>
+                <button>Ver Más</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="esp">
+        <div class="contact">
+            <section id="contacto">
+                <h2>Solicita Información</h2>
+                <form>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" placeholder="nombre" required>
+
+                    <label for="origen">Origen:</label>
+                    <input type="text" id="origen" placeholder="origen" required>
+
+                    <label for="destino">Destino:</label>
+                    <input type="text" id="destino" placeholder="destino" required>
+
+                    <label for="personas">Número de Personas:</label>
+                    <input type="number" id="personas" required>
+
+                    <label for="fecha">Fecha:</label>
+                    <input type="date" id="fecha" required>
+                </form>
+                <div class="bott"></div>
+                    <button onclick="info()">Solicitar Información</button>
+                    <button onclick="filt()">Filtrado</button>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div id="soli">
+
+    </div>
+
+<!-- ---------------------------------------------------------- -->
+<!-- ---------------------------Footer------------------------------- -->
+    
+
+
+
+
+<script src="main.js"></script>
+</body>
+</html>
