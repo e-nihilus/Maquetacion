@@ -1,0 +1,239 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+h1{
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+    margin-top: 15px;
+    
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+}
+
+main{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram{
+    max-width: 100%;
+    margin: 0 auto;
+}
+.structure{
+    width: 45%;
+    height: 66vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+    min-width: 800px;
+}
+
+
+
+.der{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    height: 100%;
+    
+}
+
+.box0{
+    border: 1px solid lightgray;
+    height: 70%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 3px;
+}
+
+.box1{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    height: 55%;
+}
+
+.title{
+    height: 35%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin-top: 10px;
+}
+
+.input{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(253, 253, 253);
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+
+
+button{
+    color: white;
+    background-color: rgb(84, 169, 226);
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    border: transparent;
+}
+
+.mid{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+.separa{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.box2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    align-self: flex-end;
+    height: 30%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.facebook{
+    color: rgb(0, 55, 107);
+    font-family: "Roboto", sans-serif;
+}
+
+.olvido, .report{
+    font-size: 12px;
+}
+.box2text{
+    font-size: 12px;
+    text-align: center;
+}
+
+.facebook, .olvido, .report{
+    color: rgb(0, 55, 107);
+    text-align: center;
+}
+
+.box3{
+    border: 1px solid  lightgray;
+    width: 80%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign{
+    color: rgb(84, 169, 226);
+}
+
+.images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text3{
+    font-size: 14px;
+    text-align: center;
+}
+
+.desc{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+
+
+/* ----------------------Footer----------------------- */
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.fot{
+    width: 63%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.foot, .idioma, .copy{
+    color: grey;
+    font-size: 12px;
+    margin-right: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+/* ------------------------------------------ */
+
+@media screen and (max-width: 875px)
+{
+    main{
+        margin-top: 10px;
+    }
+    .izq{
+        display: none;
+    }
+    .structure, .der{
+        width: 80%;
+        min-width: 500px;
+    }
+}
+
+@media screen and (max-width: 450px)
+{
+    .box0, .box3{
+        border: none;
+    }
+    main, h1{
+        margin-top: 0px;
+    }
+    .structure{
+        min-width: none;
+        width: 200%;
+        margin: 0px;
+        padding: 0px;
+    }
+}
