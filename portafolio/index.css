@@ -110,6 +110,10 @@ main {
 
 h2{
     color: #88beeb;
+    transition: color 1s ease;
+}
+h2:hover {
+    color: blue; 
 }
 
 b{
