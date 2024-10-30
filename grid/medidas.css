@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    grid-template-rows: 50vh 50vh;
+}
+
+.a{
+    background-color: rgb(111, 231, 111);
+    color: white;
+    text-align: center;
+}
+
+.b{
+    background-color: rgb(236, 141, 63);
+    color: white;
+    text-align: center;
+}
+
+.c{
+    background-color: rgb(255, 102, 0);
+    color: white;
+    text-align: center;
+}
+
+.d{
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.e{
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+.f{
+    background-color: yellow;
+    color: white;
+    text-align: center;
+}

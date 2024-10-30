@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    display: grid;
+    height: 100vh;
+    grid-template-areas: "head head imag" 
+                         "izq der der"
+                         "izq der der"
+                         "izq der der"
+                         "izq der der"
+                         "footer footer footer"   ;
+}
+
+/* ------------------------Header--------------------------- */
+.header{ 
+    grid-area: head;
+    background-color: brown;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.imagen{ 
+    grid-area: imag;
+    background-color: rgb(92, 35, 35);
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+/* ----------------------Body----------------------------- */
+/* ----------------------Izq----------------------------- */
+.izq{
+    grid-area: izq;
+    background-color: rgb(214, 98, 30);
+    grid-template-areas: "aside"
+                         "vacio"
+                         "aside2";
+}
+.aside1{
+    grid-area: aside;
+    background-color: white;
+    height: 30%;
+    margin: 15px;
+    color: rgb(190, 76, 0);
+    text-align: center;
+    padding-top: 20px;
+}
+.vacio{
+    grid-area: vacio;
+    height: 30%;
+}
+.aside2{
+    grid-area: aside2;
+    background-color: white;
+    height: 30%;
+    margin: 15px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(190, 76, 0);
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* ---------------------Der------------------------------ */
+
+.der{
+    grid-area: der;
+    background-color: rgb(228, 67, 18);
+    display: grid;
+    grid-template-areas: "content"
+                         "txt";
+}
+
+.content{
+    grid-area: content;
+    height: 100%;
+    border: 1px solid white;
+    margin: 15px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.txt{
+    grid-area: txt;
+    border: 1px solid white;
+    margin: 15px;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* ------------------------Footer--------------------------- */
+
+.footer{
+    grid-area: footer;
+    background-color: rgb(92, 35, 35);
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
