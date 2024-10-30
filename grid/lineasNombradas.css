@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: [y0] 1fr [y1] 7fr [y2] 1fr [y3];
+    grid-template-columns: [x0] 3fr [x1] 1fr [x2];
+}
+/* -------------------------Header----------------------------------- */
+.head {
+    grid-row: y0 / y1;
+    grid-column: x0 / x2;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 10px;
+}
+
+
+/* ---------------------------Contenido--------------------------------- */
+
+.content {
+    grid-row: y1 / y2;
+    grid-column: x0 / x1;
+    background-color: blue;
+    color: white;
+    display: grid;
+    grid-template-rows: [y0] 1fr [y1] 1fr [y2] 1fr [y3];
+    grid-template-columns: [x0] 1fr [x1] 1fr [x2] 1fr [x3];
+}
+
+.cont{
+    grid-row: y0/y1 ;
+    grid-column: x0/x3;
+    border: 1px solid white;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 7px;
+    padding: 10px;
+
+}
+
+.txt1{
+    grid-row: y1/y3;
+    grid-column: x0/x2;
+    border: 1px solid white;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.txt2{
+    grid-row: y1/y3;
+    grid-column: x2/x3;
+    border: 1px solid white;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+/* -------------------------Menus----------------------------------- */
+.menus{
+    grid-row: y1/y2 ;
+    grid-column: x1/x2;
+    background-color: rgb(40, 255, 183);
+    display: grid;
+    grid-template-rows: [y0] auto [y1] auto [y2] auto [y3] auto [y4];
+    grid-template-columns: [x0] 1fr [x1];
+}
+
+.menu{
+    grid-row: y0/y1;
+    grid-column: x0/x1;
+    border: 3px solid black;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.menu1{
+    grid-row: y1/y2;
+    grid-column: x0/x1;
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.menu2{
+    grid-row: y2/y3;
+    grid-column: x0/x1;
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.menu3{
+    grid-row: y3/y4;
+    grid-column: x0/x1;
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+/* -----------------------Footer------------------------------------- */
+
+.footer{
+    grid-row: y2/y3 ;
+    grid-column: x0/x3 ;
+    background-color: rgb(95, 43, 155);
+    display: grid;
+    grid-template-rows: [y0] auto [y1];
+    grid-template-columns: [x0] 1fr [x1] 1fr [x2];
+}
+
+.foot{
+    grid-row: y0/y1;
+    grid-column: x0/x1;
+    border: 3px solid black;
+    color: white;
+    margin: 5px;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.contact{
+    grid-row: y0/y1;
+    grid-column: x1/x2;
+    border: 3px solid black;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
